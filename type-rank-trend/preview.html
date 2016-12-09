@@ -1,0 +1,151 @@
+<!Doctype: html>
+
+<html>
+<style>
+.axis path,
+.axis line{
+  fill: none;
+  stroke: black;
+}
+
+.tick line{
+  opacity: 0.2;
+}
+#tooltip{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(255, 255, 255, 0.8);
+	padding:5;
+	border:solid 1px black;
+	visibility: hidden;
+	transition:all 0.2s;
+	opacity: 0;
+}
+</style>
+<body>
+<div id ="list">
+<svg  id="svg" width="1000" height="500" style="position: absolute;left: 300;top:100" >
+<g id = "overview">
+</g>
+</svg>
+</div>
+</body>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+	    
+	d3.json("https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/type-rank-trend/rank.json",
+		function(error, data){
+			drawOverview(data);
+		});
+
+
+	function drawOverview(data){
+		// Set the dimensions of the canvas / graph
+		var margin = {top:30, left:40, right:30, bottom:30};
+		    width = 1000 - margin.left - margin.right;
+		    height = 500 - margin.top - margin.bottom;
+
+		var svg = d3.select("#svg");
+		var overview = d3.select("#overview");
+		// var paths = overview.selectAll("g").data(data, function(d){return d.type;});
+
+		var xScale = d3.scale.linear().domain([2003, 2016]).range([0, width]);
+		var yScale = d3.scale.linear().domain([11, 1]).range([height, 0]);
+		var colorScale = d3.scale.category10();
+
+		var xAxis = d3.svg.axis().scale(xScale).orient("bottom")
+												.ticks(13)
+												.innerTickSize(-height)
+											    .outerTickSize(0)
+											    .tickPadding(10)
+											    .tickFormat(function(year){return year;});
+
+		var yAxis = d3.svg.axis().scale(yScale).orient("left")
+												.ticks(11)
+												.innerTickSize(-width)
+											    .outerTickSize(0)
+											    .tickPadding(10);
+
+		overview.attr("transform", "translate(" + -32 + ", " + margin.top + ")");
+
+
+		// var lines = d3.select("#list").selectAll("li").data(data, function(d){return d.type;});
+		// lines.enter()
+		// 	 .append("li")
+		// 	 .text(function(d){return d.type;});
+
+		var year = 2004;
+		// var lines = [{ "x": 2005,   "y": 5}, { "x": 2006,   "y": 8}, { "x": 2010,   "y": 6}];
+		var lineFunction = d3.svg.line()
+                         .x(function(d) { return xScale(d.x); })
+                         .y(function(d) { return yScale(11 - d.y); })
+                         .interpolate("linear");
+
+        var paths = overview.selectAll(".path")
+        					.data(data)
+        					.enter()
+        					.append("g")
+        					.attr("class", "path");
+		
+		data.forEach(function(d){
+			var lineData = []
+			for(var year=2004;year<2016;year++){
+				var dict = {"x":1, "y":1};
+				dict.x = year;
+				dict.y = d.popularity[year];
+				lineData.push(dict);
+			}
+			paths.append("path")
+					.attr("class", "linechart")
+					.attr("d", lineFunction(lineData))
+					.attr("stroke-width", 5)
+					.attr("strock", function(d){return colorScale(d.type);})
+					.attr("fill", "none");
+		});
+
+		var xAx = svg.append('g')
+					.attr("class", "axis")
+					.attr("transform","translate(" + margin.left + ", " + (height + margin.top) + ")");
+
+		var yAx = svg.append('g')
+					.attr("class", "axis")
+					.attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
+		xAx.call(xAxis);
+		yAx.call(yAxis);
+		// paths.enter()
+		// 		.append("path")
+		// 		.attr("d", lineFunction(function(d){
+		// 				var linedata = [];
+		// 				for(var i=2004;i<2017;i++){
+		// 					var dict = { "x": 1,   "y": 5};
+		// 					dict.x = i;
+		// 					dict.y = d.popularity[i];
+		// 					linedata.push(dict);
+		// 				}
+		// 				return linedata;
+		// 			}
+		// 		))
+		// 		.attr("stroke-width", 2)
+		// 		.attr("strock", function(d){return colorScale(d.type);});
+		// paths.exit().remove();
+
+		// overview.selectAll("path")
+		// 		.attr("d", lineFunction(function(d){
+		// 				var linedata = [];
+		// 				for(var i=2004;i<2017;i++){
+		// 					var dict = { "x": 1,   "y": 5};
+		// 					dict.x = i;
+		// 					dict.y = d.popularity[i];
+		// 					linedata.push(dict);
+		// 				}
+		// 				return linedata;
+		// 			}
+		// 		))
+		// 		.attr("stroke-width", 2)
+		// 		.attr("strock", function(d){return colorScale(d.type);});
+
+}
+</script>
+</html>
