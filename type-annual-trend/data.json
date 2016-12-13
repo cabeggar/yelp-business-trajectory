@@ -1,0 +1,6002 @@
+[
+	{
+		"y" : 2004,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 0.75001875
+	},
+	{
+		"y" : 2004,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.05002625
+	},
+	{
+		"y" : 2004,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.04079981
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80951995
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.07933296
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 0.80951995
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.80951995
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.80951995
+	},
+	{
+		"y" : 2005,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.80951995
+	},
+	{
+		"y" : 2005,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.04004160
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86670133
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.11431791
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.86670133
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.86670133
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.86670133
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.86670133
+	},
+	{
+		"y" : 2005,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.73340267
+	},
+	{
+		"y" : 2005,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00000000
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 0.97005500
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.67902492
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.05248863
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.35804984
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.67902492
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 1.01853738
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 0.87302234
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.67902492
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.18829361
+	},
+	{
+		"y" : 2005,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.01853738
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 0.95872900
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.21740321
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00438276
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 0.91307524
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 1.09569028
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.91307524
+	},
+	{
+		"y" : 2005,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.82615047
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15309953
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94524311
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2005,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.91566706
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.01599131
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.97034622
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94371992
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.09975159
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.77627698
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.77627698
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 1.05853128
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.09594783
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.90568235
+	},
+	{
+		"y" : 2006,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.77627698
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.04974490
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.91107872
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.95900146
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.09329446
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.91107872
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 1.06295554
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.96802114
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91107872
+	},
+	{
+		"y" : 2006,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.91107872
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 0.97222477
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.91667431
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91667431
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.26042717
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.91667431
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.22220185
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.83334861
+	},
+	{
+		"y" : 2006,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.91667431
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.02712398
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87496719
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.98433809
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 0.98433809
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.87496719
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94225217
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06938490
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.74993438
+	},
+	{
+		"y" : 2006,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.87496719
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.00843215
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87834870
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92226614
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 2.04945103
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.87834870
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.87834870
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.87834870
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.95819060
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.87834870
+	},
+	{
+		"y" : 2006,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.87834870
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 0.97389255
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 1.01498586
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 1.00754006
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 0.94250707
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.94250707
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94250707
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.09962300
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94250707
+	},
+	{
+		"y" : 2006,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.94250707
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.06514421
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.90983532
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.93831317
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 0.90983532
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.90983532
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.90983532
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.13729415
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.90983532
+	},
+	{
+		"y" : 2006,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.90983532
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.04172964
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87959698
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94097397
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.11947943
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.83963056
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.83963056
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 0.83963056
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.21276238
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95961377
+	},
+	{
+		"y" : 2006,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.04953820
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.11701863
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87685300
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.86343685
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.33780538
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.82815735
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 1.65631470
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.89714286
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.91378882
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.93167702
+	},
+	{
+		"y" : 2006,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.10418219
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.06234174
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.93137169
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.96717017
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.07465293
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.87313368
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 0.87313368
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94586571
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.11123723
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.87313368
+	},
+	{
+		"y" : 2006,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.87313368
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.09756306
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.96904660
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94348012
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 0.96194955
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.85506627
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.85506627
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 0.92082086
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.09935870
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91209919
+	},
+	{
+		"y" : 2006,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.14005985
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.09461982
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.90521045
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.87432111
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.20222335
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.84860828
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 0.92243720
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.98260353
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95468432
+	},
+	{
+		"y" : 2006,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.06076035
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.10536453
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.97496076
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.85475817
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.10251106
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.71336853
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93137395
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.09616208
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00520759
+	},
+	{
+		"y" : 2007,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.52867741
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.06604076
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.89415824
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.98988926
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.29281014
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.80243942
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.80243942
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93997753
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.03169636
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.85780774
+	},
+	{
+		"y" : 2007,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.20365912
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.04254271
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.98973390
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.97585414
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.12385020
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.82128778
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.82128778
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93676084
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05371222
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91606439
+	},
+	{
+		"y" : 2007,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.91253285
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 0.99070040
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86670576
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.95576408
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.28895777
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 1.11704088
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 0.83780161
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94948056
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.25670241
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.83780161
+	},
+	{
+		"y" : 2007,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.67560322
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.03002590
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.98098090
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94059566
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.43468760
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.92497572
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.80932341
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94707025
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.07907090
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.98276141
+	},
+	{
+		"y" : 2007,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.21398511
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.11071535
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.94263877
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94234194
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.34142179
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.74205996
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.92757495
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.84483526
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.08363016
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94263877
+	},
+	{
+		"y" : 2007,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.11308994
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.02785297
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.95483687
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94215700
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.60941730
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.83110130
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.71235219
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.85931044
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.15073372
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.89044023
+	},
+	{
+		"y" : 2007,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.85482262
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.06453697
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86145011
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89361091
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.43575018
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.89734386
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.71787509
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 0.98018665
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.19648241
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95010768
+	},
+	{
+		"y" : 2007,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.30524049
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.06009633
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.85579757
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.93666882
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.64912659
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.71885558
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 1.43771116
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94651714
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.12464956
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.84666810
+	},
+	{
+		"y" : 2007,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.23233412
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.08999437
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.88720799
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90311005
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.70883760
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.91471995
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 0.84435688
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 0.91345342
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06424149
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.85441880
+	},
+	{
+		"y" : 2007,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.26653532
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.01992032
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.93963768
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92046907
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 1.39066376
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.82004059
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.93963768
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 1.00225513
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16394798
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95489739
+	},
+	{
+		"y" : 2007,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.75171014
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.11448078
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.90930650
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.87049946
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.25763564
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 1.00610852
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Indian",
+		"weightedavg" : 1.02666188
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94962271
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.99683794
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.92396694
+	},
+	{
+		"y" : 2007,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.11793029
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.21199976
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83099532
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.84235137
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.98530394
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.68822493
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.60727516
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 0.83967936
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06819700
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.84344446
+	},
+	{
+		"y" : 2008,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.67000668
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.11255956
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.92105611
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90821863
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.43078348
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.89802806
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.92641609
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 0.88227898
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.02726310
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.87605876
+	},
+	{
+		"y" : 2008,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.21314187
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.03879006
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.88183161
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91978678
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.62443003
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.89910731
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.77066341
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93712671
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.07250658
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.89518978
+	},
+	{
+		"y" : 2008,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.49849078
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.06958631
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.82175689
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88432074
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.60629469
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.75810776
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 0.91202758
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96341931
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.12206333
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.99195608
+	},
+	{
+		"y" : 2008,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.57724719
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13774729
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87278741
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.85557665
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.65535616
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.68052918
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.61248239
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95155264
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05389845
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.89012066
+	},
+	{
+		"y" : 2008,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.31916457
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.09448771
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.95029204
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89596009
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.51399367
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.77743977
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.60842054
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96458992
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06357995
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.87795084
+	},
+	{
+		"y" : 2008,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.73831833
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.09799866
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.88320457
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.96228481
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.60770120
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.74870734
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.94628627
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.87961555
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06247339
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.88709776
+	},
+	{
+		"y" : 2008,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.07348379
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.10313606
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87515740
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.97001859
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.23193620
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.76620495
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.85662889
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 1.03531810
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.00947413
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94597350
+	},
+	{
+		"y" : 2008,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.99940037
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13813466
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83106051
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89279192
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.33032996
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.80445635
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 0.93662486
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99872154
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.00140022
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97710946
+	},
+	{
+		"y" : 2008,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.19219530
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.09059551
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87634234
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94630654
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.16518061
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.83163033
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 1.01243085
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 1.02668402
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06638464
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.92658640
+	},
+	{
+		"y" : 2008,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.90113895
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.04573927
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.90395406
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.97996868
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 1.33218061
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.82422028
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.86995955
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 1.02192353
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05728827
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.85234242
+	},
+	{
+		"y" : 2008,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.82271956
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.09963926
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.84214455
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91827342
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.39364349
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.84811544
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Indian",
+		"weightedavg" : 0.71084712
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99601941
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.95646225
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.96405026
+	},
+	{
+		"y" : 2008,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.16283120
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.11878256
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.85915637
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89970381
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.46930855
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.76600960
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.74277398
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 1.00531100
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.07808191
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94362169
+	},
+	{
+		"y" : 2009,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.31314472
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16450267
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80216786
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.86842105
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.48533503
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 1.02753304
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.66879202
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 1.01709947
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.08283098
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.88302805
+	},
+	{
+		"y" : 2009,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.23834918
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16907943
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80375608
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89732268
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.38315354
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.79850204
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.85992957
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99211894
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.03666648
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.85439607
+	},
+	{
+		"y" : 2009,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.38522162
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13555392
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80913872
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90250523
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.30158910
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.88220325
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 1.03675847
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 1.02793644
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.03070746
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.96493808
+	},
+	{
+		"y" : 2009,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.17293446
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15785773
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80839095
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89505449
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.39980077
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.72266495
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.76626040
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 1.00251963
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.07588187
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.88796437
+	},
+	{
+		"y" : 2009,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.46490097
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.19438741
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.77332877
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92938627
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.23836413
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.76049509
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.79853981
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 1.00484828
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06342688
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.84074835
+	},
+	{
+		"y" : 2009,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.95066165
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13399025
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78321641
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88303968
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.86949071
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.78096717
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.90628180
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 1.03422053
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.01842232
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.87634553
+	},
+	{
+		"y" : 2009,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.41187811
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.20157734
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78721528
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88470918
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.49348830
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73024438
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.66709905
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 1.06693302
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.98365589
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.87557723
+	},
+	{
+		"y" : 2009,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 0.96617029
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.20783580
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.76646674
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88301326
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.45743686
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.80575579
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 0.61140153
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94794475
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.04644252
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.82540032
+	},
+	{
+		"y" : 2009,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.22280306
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.19182810
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.76942774
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.93319973
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.33756402
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.86033177
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 0.91093298
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95685816
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.97801158
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.83155199
+	},
+	{
+		"y" : 2009,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.26180138
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.14376905
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80217379
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91097820
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 1.58991316
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.77416758
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.67094140
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94197481
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06797401
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.89326586
+	},
+	{
+		"y" : 2009,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.07826787
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16191998
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86530449
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89623880
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.36812967
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.77455625
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Indian",
+		"weightedavg" : 0.95125849
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 1.02311512
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.97311797
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.92066663
+	},
+	{
+		"y" : 2009,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.24524856
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.20379034
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.81926676
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.84351728
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.62421234
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73777926
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.77573038
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99360321
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05465916
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.98100057
+	},
+	{
+		"y" : 2010,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.40882184
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18255458
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.72493332
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92843031
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.38703942
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.70344759
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.61740591
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 1.03072212
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 0.95149659
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94186506
+	},
+	{
+		"y" : 2010,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.26820113
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17976324
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.82857942
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88399515
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.45199478
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.78066741
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.73792878
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.91839113
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05439038
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91396346
+	},
+	{
+		"y" : 2010,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.23443326
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15958188
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.76709806
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90905923
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.54678945
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.78218019
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 0.70517670
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.91503235
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.04181185
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.93862618
+	},
+	{
+		"y" : 2010,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.59995022
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15319977
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78915817
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.94338269
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.40902803
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.85791874
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.67249065
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95245171
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05277450
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.82487063
+	},
+	{
+		"y" : 2010,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.22728903
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15266667
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86471795
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90933333
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.34430769
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.83671795
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.66476923
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.92076923
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.03676923
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94641026
+	},
+	{
+		"y" : 2010,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.39000000
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13494503
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78922117
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91307993
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.34441960
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.72610397
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.65213341
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.90944662
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.19824856
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.86212037
+	},
+	{
+		"y" : 2010,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.54970188
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16671852
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.82541446
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88741722
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.37592782
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.83065914
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.62553891
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 0.92764123
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16080715
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91706298
+	},
+	{
+		"y" : 2010,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.36352727
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15916519
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80749837
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.87165001
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.38808479
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.71005696
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 0.66350733
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93379401
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.14165655
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00074704
+	},
+	{
+		"y" : 2010,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.20842282
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13538835
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.79708738
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89655340
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.58063107
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.75980583
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 0.97087379
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96796117
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.08252427
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94830097
+	},
+	{
+		"y" : 2010,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.32393204
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15491647
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83303085
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88808227
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 1.54600028
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.68793336
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.62957792
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95774582
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06514961
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.93596724
+	},
+	{
+		"y" : 2010,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.29368514
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.12156954
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.94460181
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88688182
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.36271186
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.71353610
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Indian",
+		"weightedavg" : 0.80487578
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96508010
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.10615277
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.05265846
+	},
+	{
+		"y" : 2010,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.26273508
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18074419
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.84641967
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.87052962
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.55251949
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.78132283
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.66973399
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 0.90689544
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.17041710
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.98734228
+	},
+	{
+		"y" : 2011,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.55710038
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.19233572
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80663552
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88593596
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.40361781
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.67632560
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.60915599
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95392001
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.14089760
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91812765
+	},
+	{
+		"y" : 2011,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.61511424
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17713448
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78730398
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90887850
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.45081578
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.77787898
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.75031681
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96039918
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.15959132
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.92400602
+	},
+	{
+		"y" : 2011,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.50760336
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18862148
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.81048559
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89663237
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.41989115
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.71375117
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 0.62768943
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96432520
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.06301556
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95029339
+	},
+	{
+		"y" : 2011,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.51262862
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17439171
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86754626
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88892221
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.48230809
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.74117546
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.58134853
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94542495
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.12808430
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.93501542
+	},
+	{
+		"y" : 2011,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.32727896
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.19211180
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.81660142
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88845393
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.41524603
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.70156164
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.76756324
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93143074
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.20419245
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95916993
+	},
+	{
+		"y" : 2011,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.51534285
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18687675
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86198644
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88875150
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.45939370
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73127244
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.57439170
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94132429
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.15871560
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.92744316
+	},
+	{
+		"y" : 2011,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.30223375
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16553408
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.85220753
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.86465921
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.45676501
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.76077314
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.70531027
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99576806
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.14868769
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.04508647
+	},
+	{
+		"y" : 2011,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.36012208
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16742622
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78461130
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88283704
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.52218928
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.78434583
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 0.67532410
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94035662
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.20729171
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.93456042
+	},
+	{
+		"y" : 2011,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.50838458
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13697941
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83496568
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89226545
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.51693364
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.85629291
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 0.85812357
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 0.98430206
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.08883295
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97418764
+	},
+	{
+		"y" : 2011,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.47052632
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13454691
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86353926
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90938223
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 1.39344846
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.82170198
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.54397365
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 0.94721382
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16031690
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.94779242
+	},
+	{
+		"y" : 2011,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.37568987
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15052445
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.84634246
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89992281
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.53920901
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.80039050
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Indian",
+		"weightedavg" : 0.71352677
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 0.92707624
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.10384598
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97116651
+	},
+	{
+		"y" : 2011,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.43677065
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13324745
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83921742
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90141299
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.39326114
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.90439193
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.67630128
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95016304
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.10583310
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.03679401
+	},
+	{
+		"y" : 2012,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.69075319
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.12680128
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.84804556
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.88238847
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.36275779
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73526620
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.67413064
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99158685
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16800414
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.01553197
+	},
+	{
+		"y" : 2012,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.45840884
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15166814
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.84698557
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89936472
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.46375531
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73924019
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.76128571
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96945601
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.18107619
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97059195
+	},
+	{
+		"y" : 2012,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.47545122
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17446698
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.79095164
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90219275
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.33511007
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.79346507
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 0.81855608
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95796499
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.10768764
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00745363
+	},
+	{
+		"y" : 2012,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.46671867
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.12841829
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.87508204
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92850580
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.51148545
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.74088821
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.80214395
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95602713
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.05854299
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97536644
+	},
+	{
+		"y" : 2012,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.43137169
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16297113
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86314495
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90011447
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.37588502
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.74642812
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.82562428
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.93021580
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.10128461
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.03124603
+	},
+	{
+		"y" : 2012,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.37923432
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.19228235
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.81368915
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90066716
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.40371469
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.82365538
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.84082860
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.95506960
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.14689894
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.98706861
+	},
+	{
+		"y" : 2012,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.28391401
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18782946
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80538101
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89735588
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.34061485
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.81398389
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.78016278
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 0.98346898
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.11289166
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97705900
+	},
+	{
+		"y" : 2012,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.33690381
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.13569682
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83066196
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89853301
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.41528570
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.72810830
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 0.68993933
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99696640
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.13836820
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.01380965
+	},
+	{
+		"y" : 2012,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.35832654
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17498672
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80885998
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89498141
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.29102496
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Halal",
+		"weightedavg" : 0.70069924
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Indian",
+		"weightedavg" : 0.77889892
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Italian",
+		"weightedavg" : 1.01880864
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16157727
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00035404
+	},
+	{
+		"y" : 2012,
+		"m" : 10,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.38493539
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17720151
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.81955700
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89289573
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "French",
+		"weightedavg" : 1.32576985
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Halal",
+		"weightedavg" : 0.71916081
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Indian",
+		"weightedavg" : 0.78786242
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99333693
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.15703223
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.02210517
+	},
+	{
+		"y" : 2012,
+		"m" : 11,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.44295876
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16421175
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.86350652
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.89671487
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "French",
+		"weightedavg" : 1.34217104
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Halal",
+		"weightedavg" : 0.77794144
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Indian",
+		"weightedavg" : 0.76517586
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Italian",
+		"weightedavg" : 1.02084449
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16443492
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97754865
+	},
+	{
+		"y" : 2012,
+		"m" : 12,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.34966970
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16817296
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80428516
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.86462797
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "French",
+		"weightedavg" : 1.42329568
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Halal",
+		"weightedavg" : 0.75477211
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Indian",
+		"weightedavg" : 0.68636541
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99248150
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.26696533
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.05644721
+	},
+	{
+		"y" : 2013,
+		"m" : 1,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.77919751
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "American and British",
+		"weightedavg" : 1.14296565
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.83391003
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.87636087
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "French",
+		"weightedavg" : 1.38572875
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Halal",
+		"weightedavg" : 0.76381973
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Indian",
+		"weightedavg" : 0.82049118
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Italian",
+		"weightedavg" : 1.05692463
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.20233775
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00953667
+	},
+	{
+		"y" : 2013,
+		"m" : 2,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.66119504
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "American and British",
+		"weightedavg" : 1.19360128
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.78136373
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90253949
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "French",
+		"weightedavg" : 1.35820836
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73869226
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Indian",
+		"weightedavg" : 0.71289742
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99000200
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.16036793
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.93669266
+	},
+	{
+		"y" : 2013,
+		"m" : 3,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.43791242
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18648714
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.76106587
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90445860
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "French",
+		"weightedavg" : 1.38389906
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Halal",
+		"weightedavg" : 0.73558816
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Indian",
+		"weightedavg" : 0.75368862
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Italian",
+		"weightedavg" : 0.98774490
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.14431992
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 1.00374909
+	},
+	{
+		"y" : 2013,
+		"m" : 4,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.53007337
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16088254
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.80288160
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90409077
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "French",
+		"weightedavg" : 1.23834014
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Halal",
+		"weightedavg" : 0.84406407
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Indian",
+		"weightedavg" : 0.81658291
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Italian",
+		"weightedavg" : 1.03733511
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.18380967
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.95736495
+	},
+	{
+		"y" : 2013,
+		"m" : 5,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.31764290
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15807837
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.82010582
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91948470
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "French",
+		"weightedavg" : 1.34978146
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Halal",
+		"weightedavg" : 0.75864581
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Indian",
+		"weightedavg" : 0.86772487
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99210183
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.13760448
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.96936585
+	},
+	{
+		"y" : 2013,
+		"m" : 6,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.24384633
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "American and British",
+		"weightedavg" : 1.17224616
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.81239642
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92173977
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "French",
+		"weightedavg" : 1.29834641
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Halal",
+		"weightedavg" : 0.76341472
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Indian",
+		"weightedavg" : 0.85441756
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Italian",
+		"weightedavg" : 0.99101388
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.17360881
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.91632600
+	},
+	{
+		"y" : 2013,
+		"m" : 7,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.17250396
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "American and British",
+		"weightedavg" : 1.16347717
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.82141274
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.91170386
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "French",
+		"weightedavg" : 1.34926851
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Halal",
+		"weightedavg" : 0.75664992
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Indian",
+		"weightedavg" : 0.86201419
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Italian",
+		"weightedavg" : 0.96553125
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.20012561
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.96545737
+	},
+	{
+		"y" : 2013,
+		"m" : 8,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.18220777
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "American and British",
+		"weightedavg" : 1.15902669
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.77684458
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.92291994
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "French",
+		"weightedavg" : 1.29764521
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Halal",
+		"weightedavg" : 0.68979592
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Indian",
+		"weightedavg" : 0.91573783
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Italian",
+		"weightedavg" : 1.01907378
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Japanese and Korean",
+		"weightedavg" : 1.21514914
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Southeast Asian",
+		"weightedavg" : 0.97700157
+	},
+	{
+		"y" : 2013,
+		"m" : 9,
+		"ftype" : "Spanish",
+		"weightedavg" : 1.19996075
+	},
+	{
+		"y" : 2013,
+		"m" : 10,
+		"ftype" : "American and British",
+		"weightedavg" : 1.18386760
+	},
+	{
+		"y" : 2013,
+		"m" : 10,
+		"ftype" : "Chinese",
+		"weightedavg" : 0.76400758
+	},
+	{
+		"y" : 2013,
+		"m" : 10,
+		"ftype" : "Comfort Food",
+		"weightedavg" : 0.90108658
+	},
+	{
+		"y" : 2013,
+		"m" : 10,
+		"ftype" : "French",
+		"weightedavg" : 1.29732029
+	}
+]

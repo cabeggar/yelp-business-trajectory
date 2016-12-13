@@ -1,26 +1,74 @@
+<<<<<<< HEAD
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+=======
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
     <style>
         body {
             margin: 25px;
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
         .container {
             overflow: hidden;
             margin-left: 0px;
         }
+<<<<<<< HEAD
         #typeList {
             float: left;
         }
+=======
+        
+        #typeList {
+            float: left;
+            width: 180px;
+        }
+        
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
         #businessList {
             float: left;
             display: none;
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
         #chartContainer {
             float: left;
             margin-left: 20px;
         }
         a.highlight {
+<<<<<<< HEAD
             color: brown;
+=======
+            color: black;
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+        }
+        
+        .tick line {
+            opacity: 0.2;
+        }
+        
+        #tooltip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5;
+            border: solid 1px black;
+            visibility: hidden;
+            transition: all 0.2s;
+            opacity: 0;
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
         }
     </style>
 </head>
@@ -28,6 +76,10 @@
     <h1>Yelp Business Trajectory</h1>
     <div class="container">
         <div id="typeList" class="list-group">
+<<<<<<< HEAD
+=======
+            <a class="list-group-item active" onclick="showAll();">All</a>
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
             <a class="list-group-item">American and British</a>
             <a class="list-group-item">Chinese</a>
             <a class="list-group-item">Comfort Food</a>
@@ -35,8 +87,13 @@
             <a class="list-group-item">Halal</a>
             <a class="list-group-item">Indian</a>
             <a class="list-group-item">Italian</a>
+<<<<<<< HEAD
             <a class="list-group-item">Japanese and Korea</a>
             <a class="list-group-item">Southeast Asia</a>
+=======
+            <a class="list-group-item">Japanese and Korean</a>
+            <a class="list-group-item">Southeast Asian</a>
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
             <a class="list-group-item">Spanish</a>
         </div>
         <div id="businessList" class="list-group">
@@ -47,7 +104,66 @@
             <a class="list-group-item">Restaurant 5</a>
             <a class="list-group-item">Restaurant 6</a>
         </div>
+<<<<<<< HEAD
         <div id="chartContainer">
         </div>
     </div>
 </body>
+=======
+        <div id="rankChart">
+        </div>
+    </div>
+    <div id="tooltip">Tooltip</div>
+</body>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="js/typerank.js" type="text/javascript"></script>
+<script>
+    function highlightInTypeList(typeName, color) {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            if (type.textContent == typeName) {
+                type.style.color = color;
+                type.style.fontWeight = "bold";
+                break;
+            }
+        }
+    }
+    
+    function unHighlightInTypeList() {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            type.style.color = "black";
+            type.style.fontWeight = "normal";
+        }
+    }
+    
+    function typeAndYear(typeName, startYear) {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            if (type.textContent == "All") {
+                type.className = "list-group-item";
+            }
+            if (type.textContent == typeName) {
+                type.className += " active";
+                break;
+            }
+        }
+        document.getElementById("rankChart").style.display = "none";
+        document.getElementById("businessList").style.display = "block";
+    }
+    
+    function showAll() {
+         var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            type.className = "list-group-item";
+        }
+        document.getElementById("rankChart").style.display = "block";
+        document.getElementById("businessList").style.display = "none";
+    }
+</script>
+</html>
+>>>>>>> fdc272642d04b7a79c151727e61e04d937f56831
