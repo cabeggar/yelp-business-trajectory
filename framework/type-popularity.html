@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Foodtype Popularity</title>
+        <style>
+            .container {
+                margin: 30px auto;
+                width: 600px;
+                height: 300px;
+                border: 1px solid #000;
+            }
+            .axis path,
+            .axis line,
+            .line {
+                stroke: #000;
+                fill: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <svg width="100%" height="100%"></svg>
+        </div>
+        
+    </body>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script>
+            var width = 600, height = 300;
+            var padding = { top: 50, right: 50, bottom: 50, left: 50 };
+            
+            function renderChart(data){ 
+                
+                
+                var main = d3.select('.container svg').append('g')
+                        .classed('main', true)
+                        .attr('transform', "translate(" + padding.top + ',' + padding.left + ')');
+                
+                var xScale = d3.scale.linear()
+                        .domain([1, 12]
+                            //d3.extent(data, function(d) {
+                            //return d.m;})
+                            )
+                        .range([0, width - padding.left - padding.right]);
+                var yScale = d3.scale.linear()
+                        .domain([0.7, 1])
+                        .range([height - padding.top - padding.bottom, 0]);
+                var xAxis = d3.svg.axis()
+                        .scale(xScale)
+                        .orient('bottom');
+                var yAxis = d3.svg.axis()
+                        .scale(yScale)
+                        .orient('left');
+                main.append('g')
+                        .attr('class', 'axis')
+                        .attr('transform', 'translate(0,' + (height - padding.top - padding.bottom) + ')')
+                        .call(xAxis);
+                main.append('g')
+                        .attr('class', 'axis')
+                        .call(yAxis);
+                var line = d3.svg.line()
+                        .x(function(d) {
+                            return xScale(d.m)
+                        })
+                        .y(function(d) {
+                            return yScale(d.weightedavg);
+                        })
+                        .interpolate('linear');
+                main.append('path')
+                        .attr('class', 'line')
+                        .attr('d', line(data));
+                main.selectAll('circle')
+                        .data(data)
+                        .enter()
+                        .append('circle')
+                        .attr('cx', function(d) {
+                            return xScale(d.m);
+                        })
+                        .attr('cy', function(d) {
+                            return yScale(d.weightedavg);
+                        })
+                        .attr('r', 3)
+                        .attr('fill');
+            };
+            
+            function render(data) {
+            var resultFiltered = data.filter(function(d) { 
+                return d.y == 2008 && d.ftype == "Chinese";
+            });
+            
+            renderChart(resultFiltered);
+            }
+            d3.json("https://raw.githubusercontent.com/pokemontop/D3Labs/master/data.json", function(error, result){
+                render(result);
+            });
+    </script>
+</html>
