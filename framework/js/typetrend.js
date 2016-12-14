@@ -2,13 +2,13 @@ var showType;
 var showYear;
 
 function renderTypeAnnualChart(data) {
-    var width = 600,
+    var width = 800,
         height = 300;
     var padding = {
         top: 50,
         right: 50,
         bottom: 50,
-        left: 50
+        left: 10
     };
     var svg = d3.select("#typeChart")
         .append('svg')
@@ -21,7 +21,11 @@ function renderTypeAnnualChart(data) {
         .domain([1, 12])
         .range([0, width - padding.left - padding.right]);
     var yScale = d3.scale.linear()
-        .domain([0.7, 1])
+        .domain([d3.min(data, function(d) {
+            return d.weightedavg;
+        })-0.1, d3.max(data, function(d) {
+            return d.weightedavg;
+        })+0.1])
         .range([height - padding.top - padding.bottom, 0]);
     var xAxis = d3.svg.axis()
         .scale(xScale)
