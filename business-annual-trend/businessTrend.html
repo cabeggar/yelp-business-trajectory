@@ -45,28 +45,37 @@
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script>
+        //global variable
+        var data = [];
+        var elite = [];
+        
+                // parameter
+        var bid = "DoKUOUwAsWrlRY6ehzQV_w"
+        var year = 2014
+       
         var width = 600, height = 300;
         var padding = { top: 50, right: 50, bottom: 50, left: 50 };
-		// define dimensions of graph
-        d3.json("https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/business-annual-trend/newVisit.json", function(error, result){
-            data = result;
-            render(result);
-        })
+        readData();
         
         
-        // parameter
-        var bid = "--AKjxBmhm9DWrh-e0hTOw"
-        var year = 2016
+        function readData(){
+             //import visit data for elite user
+            d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newVisit.json", function(error, result){
+                data = result;
+                readElite();
+            });
+        }
         
-		// global varable
-        //var testdata = [1,2,1,2,1,2,1,2,1,2,1,2]
-        var elite = [{
-                      "date":4.4,
-                      "year":year,
-                      "rank":4
-                        }];
+        function readElite(){
+            d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newElite.json", function(error, result){
+                elite = result;
+                console.log(data.length)
+                render(data, elite);
+            });
+            
+        }
        
-        function renderChart(data, elite){ 
+        function renderChart(data,filteredElite){ 
                 var main = d3.select('.container svg').append('g')
                         .classed('main', true)
                         .attr('transform', "translate(" + padding.top + ',' + padding.left + ')');
@@ -106,15 +115,13 @@
                         .attr("id", "myline");
             
                 main.selectAll('circle')
-                    .data(elite)
+                    .data(filteredElite)
                     .enter()
                     .append('circle')
                     .attr('cx', function(d) {   return xScale(d.date) })
                     .attr('cy', function(d){    return findYatX(xScale(d.date), document.getElementById("myline"))[1]})
                     .attr("fill", function(d) { return colorScale(d.rank)})
                     .attr('r', 4);        
-
-                    console.log(findYatX(xScale(9), document.getElementById("myline")));
             
                     // Get the coordinates          
                     function findYatX(x, linePath) {
@@ -130,8 +137,10 @@
 
         };
         
-        function render(data){
+        function render(data, elite){
             var filteredData = data.filter(function(d) { return d.bid == bid && d.year == year});
+//            console.log(filteredData.length);
+//            console.log(filteredData);
             var array = [];
             for(var i = 1; i <= 12; i++){
                 var object = {
@@ -143,9 +152,11 @@
                 array.push(object);
             }
             for (var i = 0; i < filteredData.length; i++) {
-                array[filteredData[i].month].vcount = filteredData[i].vcount
-            }   
-            renderChart(array, filteredElite)
+                array[filteredData[i].month - 1].vcount = filteredData[i].vcount
+            }
+            var filteredElite = elite.filter(function(d) {   return d.bid == bid });
+            console.log(filteredElite);
+//            renderChart(array, filteredElite)
         }		
 
 	</script>
