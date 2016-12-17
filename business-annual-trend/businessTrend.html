@@ -155,6 +155,7 @@
                 array[filteredData[i].month - 1].vcount = filteredData[i].vcount
             }
             var filteredElite = elite.filter(function(d) {   return d.bid == bid });
+            console.log(filteredElite[0].vdate.includes("2014") == true);
             console.log(filteredElite);
 //            renderChart(array, filteredElite)
         }		
