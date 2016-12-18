@@ -2,10 +2,11 @@
 	<head>
 		<title>Business Annual Trend</title>
 		<style>
-            #title {
-                background-color: black;
-                color: white;
-                padding: 10px
+            .container {
+                margin: 30px auto;
+                width: 600px;
+                height: 300px;
+                border: 1px solid #000;
             }
 			path {
 				stroke: steelblue;
@@ -33,98 +34,169 @@
 			  fill: none;
 			  stroke: #000;
 			}
+            
+             .legend {
+                 font-size: 12px;
+            }
+              rect {
+                stroke-width: 2;
+              }
 		</style>
 	</head>
-	<body>
-          <div id = "title">
-            <h1>Business Annual Trend</h1>
+    <body>
+        <div class="container">
+            <svg width="100%" height="100%"></svg>
         </div>
-	   <div id="graph" class="aGraph" style="position:absolute;top:0px;left:0; float:left;"></div>
+        
     </body>
 
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script>
-		// define dimensions of graph
-        d3.csv("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newVisit.csv", function(error, result){
-//            TODO -- asign value to the data
-//            for(var i = 0; i < result.length; i++){
-//                data[]
-//            }
-//            console.log("have read data from csv file!");
-//            console.log(result);
-            data = result;
-            render(result);
-        })
+        //global variable
+        var data = [];
+        var elite = [];
         
-        //parameter
-        var bid = ""
-        var year = 2016
-	    var m = [80, 80, 80, 80]; // margins
-		var w = 1000 - m[1] - m[3]; // width
-		var h = 400 - m[0] - m[2]; // height
-        
-		// global varable
-        var data = [1,2];
-
-		// X scale will fit all values from data[] within pixels 0-w
-		var x = d3.scale.linear().domain([1, 12]).range([0, w]);
-		// Y scale will fit values from 0-10 within pixels h-0 (Note the inverted domain for the y-scale: bigger is up!)
-		var y = d3.scale.linear().domain([0, 10]).range([h, 0]);
-
-
-        function renderChart(data){
-            	// create a line function that can convert data[] into x and y points
-		var line = d3.svg.line()
-			// assign the X function to plot our line as we wish
-			.x(function(d,i) { 
-				// verbose logging to show what's actually being done
-				console.log('Plotting X value for data point: ' + d + ' using index: ' + i + ' to be at: ' + x(i) + ' using our xScale.');
-				// return the X coordinate where we want to plot this datapoint
-				return x(i); 
-			})
-			.y(function(d) { 
-				// verbose logging to show what's actually being done
-				console.log('Plotting Y value for data point: ' + d + ' to be at: ' + y(d) + " using our yScale.");
-				// return the Y coordinate where we want to plot this datapoint
-				return y(d); 
-			})
-
-			// Add an SVG element with the desired dimensions and margin.
-			var graph = d3.select("#graph").append("svg:svg")
-			      .attr("width", w + m[1] + m[3])
-			      .attr("height", h + m[0] + m[2])
-			    .append("svg:g")
-			      .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
-
-			// create yAxis
-			var xAxis = d3.svg.axis().scale(x).tickSize(-h).tickSubdivide(true);
-			// Add the x-axis.
-			graph.append("svg:g")
-			      .attr("class", "x axis")
-			      .attr("transform", "translate(0," + h + ")")
-			      .call(xAxis);
-
-
-			// create left yAxis
-			var yAxisLeft = d3.svg.axis().scale(y).ticks(4).orient("left");
-			// Add the y-axis to the left
-			graph.append("svg:g")
-			      .attr("class", "y axis")
-			      .attr("transform", "translate(-25,0)")
-			      .call(yAxisLeft);
-			
-  			// Add the line by appending an svg:path element with the data line we created above
-			// do this AFTER the axes above so that the line is above the tick-lines
-  			graph.append("svg:path").attr("d", line(data));
+                // parameter
+        var bid;
+        var year;
+        var width = 600, height = 300;
+        var padding = { top: 50, right: 50, bottom: 50, left: 50 };
+        initial("DoKUOUwAsWrlRY6ehzQV_w", 2014);
+        function initial(bid, year){
+            this.bid = bid;
+            this.year = year;
+            console.log(this.bid);
+            readData();
         }
-          function render(data){
-//              console.log(data);
-            var filteredData = data.filter(function(d) { 
-                return +d.bid == bid && +d.year == 2006
+       
+        function readData(){
+             //import visit data for elite user
+            d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newVisit.json", function(error, result){
+                data = result;
+                readElite();
             });
-            console.log(filteredData);
-            renderChart(filteredData);
-              renderChart(data)
+        }
+        
+        function readElite(){
+            d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newElite.json", function(error, result){
+                elite = result;
+//                console.log(data.length)
+                render(data, elite);
+            });
+            
+        }
+       
+        function renderChart(data,filteredElite){ 
+                var main = d3.select('.container svg').append('g')
+                        .classed('main', true)
+                        .attr('transform', "translate(" + padding.top + ',' + padding.left + ')');
+                
+                var xScale = d3.scale.linear()
+                        .domain([1, 12])
+                        .range([0, width - padding.left - padding.right]);
+                var yScale = d3.scale.linear()
+                        .domain([0, 8])
+                        .range([height - padding.top - padding.bottom, 0]);
+                var xAxis = d3.svg.axis()
+                        .scale(xScale)
+                        .orient('bottom');
+                var yAxis = d3.svg.axis()
+                        .scale(yScale)
+                        .orient('left');
+            
+                 var colorScale = d3.scale.linear()
+                                    .domain([5,4,3,2,1])
+                                    .range(["#d62728", "#ab1f20","#801718","#550f10", "#2a0708"]);
+            
+//             var color = d3.scaleOrdinal(d3.schemeCategory20b);
+            
+                main.append('g')
+                        .attr('class', 'axis')
+                        .attr('transform', 'translate(0,' + (height - padding.top - padding.bottom) + ')')
+                        .call(xAxis);
+            
+                main.append('g')
+                        .attr('class', 'axis')
+                        .call(yAxis);
+            
+                var line = d3.svg.line()
+                        .x(function(d) {return xScale(d.month)})
+                        .y(function(d) {return yScale(d.vcount);})
+                        .interpolate('linear');
+            
+                main.append('path')
+                        .attr('class', 'line')
+                        .attr('d', line(data))
+                        .attr("id", "myline");
+            
+                main.selectAll('circle')
+                    .data(filteredElite)
+                    .enter()
+                    .append('circle')
+                    .attr('cx', function(d) {   return xScale(d.month + d.day/30) })
+                    .attr('cy', function(d){    return findYatX(xScale(d.month + d.day/30), document.getElementById("myline"))[1]})
+                    .attr("fill", function(d) { return colorScale(d.rstar)})
+                    .attr('r', 4);        
+            
+                    // Get the coordinates          
+                    function findYatX(x, linePath) {
+                         function getXY(len) {
+                              var point = linePath.getPointAtLength(len);
+                              return [point.x, point.y];
+                         }
+                         var curlen = 0;
+                         while (getXY(curlen)[0] < x) { curlen += 0.01; }
+                         return getXY(curlen);
+                    }
+            
+            var legendRectSize = 15;
+            var legendSpacing = 2;
+            
+            var legend = main.selectAll('.legend')
+              .data(colorScale.domain())
+              .enter()
+              .append('g')
+              .attr('class', 'legend')
+              .attr('transform', function(d, i) {
+                var height = legendRectSize + legendSpacing;
+                var offset =  height * colorScale.domain().length / 5;
+                var horz = 30* legendRectSize;
+                var vert = i * height - offset;
+                return 'translate(' + horz + ',' + vert + ')';
+            });
+            
+            legend.append('rect')
+                  .attr('width', legendRectSize)
+                  .attr('height', legendRectSize)
+                  .style('fill', colorScale)
+                  .style('stroke', colorScale);
+            
+            legend.append('text')
+                  .attr('x', legendRectSize + legendSpacing)
+                  .attr('y', legendRectSize - legendSpacing)
+                  .text(function(d) { return d; });
+                    
+
+        }
+        
+        function render(data, elite){
+            var filteredData = data.filter(function(d) { return d.bid == bid && d.year == year});
+            var array = [];
+            for(var i = 1; i <= 12; i++){
+                var object = {
+                      "month":i,
+                      "year":year,
+                      "vcount":0
+                        };
+
+                array.push(object);
+            }
+            for (var i = 0; i < filteredData.length; i++) {
+                array[filteredData[i].month - 1].vcount = filteredData[i].vcount
+            }
+            var filteredElite = elite.filter(function(d) {   return d.bid == bid && d.year == year});
+            console.log(filteredElite);
+            renderChart(array, filteredElite)
         }		
 
 	</script>
