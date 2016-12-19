@@ -44,6 +44,11 @@
             display: none;
         }
         
+        #businessInfo {
+            display: none;
+            margin-left: 100px;
+        }
+        
         a.highlight {
             color: black;
         }
@@ -100,7 +105,7 @@
         <div id="chartContainer">
             <div id="rankChart"></div>
             <div id="typeChart"></div>
-            <br/>
+            <div id="businessInfo"></div>
             <div id="businessChart"></div>
         </div>
     </div>
@@ -192,6 +197,7 @@
     var typeDiff = {};
     var newVisit = [];
     var newElite = [];
+    var businessInfo = {};
     
     function processData(data) {
         var record_num = 4;
@@ -206,6 +212,7 @@
             var city = data[3];
             
             var business = {bid: bid, bname: bname, city: city};
+            businessInfo[bid] = business;
             if (ftype in typeAndBusiness) {
                 typeAndBusiness[ftype].push(business);
             } else {
@@ -277,6 +284,8 @@
                 }
                 initial(business.bid, parseInt(startYear)+1);
                 businessChart.style.display = "block";
+                document.getElementById("businessInfo").innerHTML = businessInfo[business.bid].bname + " " + businessInfo[business.bid].city;
+                document.getElementById("businessInfo").style.display = "inline";
                 entry.className = "list-group-item active";
             }
             businessList.appendChild(entry);
@@ -296,6 +305,7 @@
         document.getElementById("rankChart").style.display = "block";
         document.getElementById("businessList").style.display = "none";
         document.getElementById("businessChart").style.display = "none";
+        document.getElementById("businessInfo").style.display = "none";
         
         var typeChart = document.getElementById("typeChart");
         while (typeChart.firstChild) {
