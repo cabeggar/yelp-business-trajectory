@@ -71,7 +71,7 @@
        
         function readData(){
              //import visit data for elite user
-            d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newVisit.json", function(error, result){
+            d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/weightedVisit.json", function(error, result){
                 data = result;
                 readElite();
             });
