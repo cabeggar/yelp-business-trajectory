@@ -141,7 +141,7 @@
         });
         $.ajax({
             type: "GET",
-            url: "https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newVisit.json",
+            url: "https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/business-annual-trend/weightedVisit.json",
             dataType: "text",
             success: function(data) {
                 newVisit = JSON.parse(data);
@@ -250,7 +250,7 @@
         document.getElementById("rankChart").style.display = "none";
         document.getElementById("businessList").style.display = "block";
         document.getElementById("typeChart").style.display = "block";
-        drawTypeAnnualTrend(typeName, parseInt(startYear) + 1);
+        drawTypeAnnualTrend(typeName, parseInt(startYear));
         
         var businessList = document.getElementById("businessList");
         while (businessList.firstChild) {
@@ -275,7 +275,7 @@
                 while (businessChart.firstChild) {
                     businessChart.removeChild(businessChart.firstChild);
                 }
-                initial(business.bid, parseInt(startYear) + 1);
+                initial(business.bid, parseInt(startYear));
                 businessChart.style.display = "block";
                 entry.className = "list-group-item active";
             }

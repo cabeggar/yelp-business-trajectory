@@ -65,7 +65,7 @@ function renderChart(data, filteredElite) {
 
     var colorScale = d3.scale.linear()
         .domain([5, 4, 3, 2, 1])
-        .range(["#d62728", "#ab1f20", "#801718", "#550f10", "#2a0708"]);
+        .range(["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]);
 
     //             var color = d3.scaleOrdinal(d3.schemeCategory20b);
     main.append('g')

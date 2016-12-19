@@ -5,10 +5,10 @@ function renderTypeAnnualChart(data) {
     var width = 800,
         height = 300;
     var padding = {
-        top: 50,
+        top: 10,
         right: 50,
         bottom: 50,
-        left: 10
+        left: 50
     };
     var svg = d3.select("#typeChart")
         .append('svg')
@@ -16,9 +16,9 @@ function renderTypeAnnualChart(data) {
         .attr("height", "100%");
     var main = svg.append('g')
         .classed('main', true)
-        .attr('transform', "translate(" + padding.top + ',' + padding.left + ')');
+        .attr('transform', "translate(" + padding.left + ',' + padding.top + ')');
     var xScale = d3.scale.linear()
-        .domain([1, 12])
+        .domain([0, 12])
         .range([0, width - padding.left - padding.right]);
     var yScale = d3.scale.linear()
         .domain([d3.min(data, function(d) {
