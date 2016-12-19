@@ -1,0 +1,317 @@
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+        body {
+            margin: 25px;
+        }
+        .container {
+            overflow: hidden;
+            margin-left: 0px;
+        }
+        #typeList {
+            float: left;
+        }
+        
+        #typeList {
+            float: left;
+            width: 180px;
+        }
+        
+        #businessList {
+            float: left;
+            display: none;
+            width: 150px;
+        }
+
+        #chartContainer {
+            float: left;
+        }
+        
+        #typeChart {
+            width: 800px;
+            height: 300px;
+            display: none;
+        }
+        
+        #businessChart {
+            width: 800px;
+            height: 300px;
+            display: none;
+        }
+        
+        #businessInfo {
+            display: none;
+            margin-left: 100px;
+        }
+        
+        a.highlight {
+            color: black;
+        }
+        
+        .tick line {
+            opacity: 0.2;
+        }
+        
+        .axis path,
+        .axis line,
+        .line {
+            stroke: black;
+            fill: none;
+        }
+        
+        #tooltip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5;
+            border: solid 1px black;
+            visibility: hidden;
+            transition: all 0.2s;
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Yelp Business Trajectory</h1>
+    <div class="container">
+        <div id="typeList" class="list-group">
+            <a class="list-group-item active" onclick="showAll();">All</a>
+            <a class="list-group-item">American and British</a>
+            <a class="list-group-item">Chinese</a>
+            <a class="list-group-item">Comfort Food</a>
+            <a class="list-group-item">French</a>
+            <a class="list-group-item">Halal</a>
+            <a class="list-group-item">Indian</a>
+            <a class="list-group-item">Italian</a>
+            <a class="list-group-item">Japanese and Korean</a>
+            <a class="list-group-item">Southeast Asian</a>
+            <a class="list-group-item">Spanish</a>
+        </div>
+        <div id="businessList" class="list-group">
+            <a class="list-group-item">Restaurant 1</a>
+            <a class="list-group-item">Restaurant 2</a>
+            <a class="list-group-item">Restaurant 3</a>
+            <a class="list-group-item">Restaurant 4</a>
+            <a class="list-group-item">Restaurant 5</a>
+            <a class="list-group-item">Restaurant 6</a>
+        </div>
+        <div id="chartContainer">
+            <div id="rankChart"></div>
+            <div id="typeChart"></div>
+            <div id="businessInfo"></div>
+            <div id="businessChart"></div>
+        </div>
+    </div>
+    <div id="tooltip">Tooltip</div>
+</body>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="js/typerank.js" type="text/javascript"></script>
+<script src="js/typetrend.js" type="text/javascript"></script>
+<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script>
+    
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: "https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/data/business.csv",
+            dataType: "text",
+            success: function(data) {
+                processData(data);
+                $.ajax({
+                    type: "GET",
+                    url: "https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/data/difference.json",
+                    dataType: "text",
+                    success: function(data) {
+                        var tmp = JSON.parse(data);
+                        tmp.forEach(function(data) {
+                            var bid = data.bid;
+                            var year = data.year;
+                            var diff = data.difference;
+                            if (!(bid in businessDiff)) {
+                                businessDiff[bid] = {};
+                            }
+                            businessDiff[bid][year] = diff;
+                        })
+                        rankDiff();
+                    }
+                });
+            }
+        });
+        $.ajax({
+            type: "GET",
+            url: "https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/data/weightedVisit.json",
+            dataType: "text",
+            success: function(data) {
+                newVisit = JSON.parse(data);
+            }
+        })
+        $.ajax({
+            type: "GET",
+            url: "https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/data/newElite.json",
+            dataType: "text",
+            success: function(data) {
+                newElite = JSON.parse(data);
+            }
+        })
+    });
+    
+    function rankDiff() {
+        for (var type in typeAndBusiness) {
+            if (type.length== 0) {
+                continue;
+            }
+            typeDiff[type] = {};
+            for (var i = 2004; i < 2017; i++) {
+                var tmp = [];
+                typeAndBusiness[type].forEach(function(business) {
+                    if ((business.bid in businessDiff) && (i in businessDiff[business.bid])) {
+                        tmp.push({bid: business.bid, diff: businessDiff[business.bid][i], bname: business.bname});
+                    }
+                })
+                tmp.sort(function(a, b) {
+                    if (a.diff > b.diff) {
+                        return -1;
+                    }
+                    if (a.diff < b.diff) {
+                        return 1;
+                    }
+                    return 0;
+                })
+                if (tmp.length > 20) {
+                    tmp = tmp.slice(0, 20);
+                }
+                typeDiff[type][i] = tmp;
+            }
+        }
+    }
+    
+    var typeAndBusiness = {};
+    var businessDiff = {};
+    var typeDiff = {};
+    var newVisit = [];
+    var newElite = [];
+    var businessInfo = {};
+    
+    function processData(data) {
+        var record_num = 4;
+        var allTextLines = data.split(/\r\n|\n/);
+        var lines = [];
+        
+        for (var i=1; i<allTextLines.length; i++) {
+            var data = allTextLines[i].split(',');
+            var ftype = data[0];
+            var bid = data[1];
+            var bname = data[2];
+            var city = data[3];
+            
+            var business = {bid: bid, bname: bname, city: city};
+            businessInfo[bid] = business;
+            if (ftype in typeAndBusiness) {
+                typeAndBusiness[ftype].push(business);
+            } else {
+                var tmp = [business];
+                typeAndBusiness[ftype] = tmp;
+            }
+        }
+    }
+    
+    function highlightInTypeList(typeName, color) {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            if (type.textContent == typeName) {
+                type.style.color = color;
+                type.style.fontWeight = "bold";
+                break;
+            }
+        }
+    }
+
+    function unHighlightInTypeList() {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            type.style.color = "black";
+            type.style.fontWeight = "normal";
+        }
+    }
+
+    function typeAndYear(typeName, startYear) {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            if (type.textContent == "All") {
+                type.className = "list-group-item";
+            }
+            if (type.textContent == typeName) {
+                type.className += " active";
+            }
+        }
+        document.getElementById("rankChart").style.display = "none";
+        document.getElementById("businessList").style.display = "block";
+        document.getElementById("typeChart").style.display = "block";
+        drawTypeAnnualTrend(typeName, parseInt(startYear)+1);
+        
+        var businessList = document.getElementById("businessList");
+        while (businessList.firstChild) {
+            businessList.removeChild(businessList.firstChild);
+        }
+        var tmp;
+        if (typeName.includes(' ')) {
+            tmp = '"'+typeName+'"';
+        } else {
+            tmp = typeName;
+        }
+        typeDiff[tmp][parseInt(startYear) + 1].forEach(function(business) {
+            var entry = document.createElement('a');
+            entry.className = "list-group-item";
+            entry.innerHTML = business.bname;
+            entry.onclick = function() {
+                for (var i = 0; i < businessList.childElementCount; i++) {
+                    businessList.children[i].className = "list-group-item";
+                }
+                
+                var businessChart = document.getElementById("businessChart");
+                while (businessChart.firstChild) {
+                    businessChart.removeChild(businessChart.firstChild);
+                }
+                initial(business.bid, parseInt(startYear)+1);
+                businessChart.style.display = "block";
+                document.getElementById("businessInfo").innerHTML = businessInfo[business.bid].bname + " " + businessInfo[business.bid].city;
+                document.getElementById("businessInfo").style.display = "inline";
+                entry.className = "list-group-item active";
+            }
+            businessList.appendChild(entry);
+        })
+    }
+
+    function showAll() {
+        var types = document.getElementById("typeList").children;
+        for (var i = 0; i < types.length; i++) {
+            var type = types[i];
+            if (type.textContent == "All") {
+                type.className += " active";
+            } else {
+                type.className = "list-group-item";
+            }
+        }
+        document.getElementById("rankChart").style.display = "block";
+        document.getElementById("businessList").style.display = "none";
+        document.getElementById("businessChart").style.display = "none";
+        document.getElementById("businessInfo").style.display = "none";
+        
+        var typeChart = document.getElementById("typeChart");
+        while (typeChart.firstChild) {
+            typeChart.removeChild(typeChart.firstChild);
+        }
+    }
+</script>
+<script src="js/businesstrend.js" type="text/javascript"></script>
+</html>
