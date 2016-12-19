@@ -79,7 +79,7 @@ function renderTypeAnnualTrend(data, typeName, year) {
 function drawTypeAnnualTrend(typeName, year) {
     showType = typeName;
     showYear = year;
-    d3.json("https://raw.githubusercontent.com/pokemontop/D3Labs/master/data.json", function (error, result) {
+    d3.json("https://raw.githubusercontent.com/cabeggar/yelp-business-trajectory/master/type-annual-trend/data.json", function (error, result) {
         renderTypeAnnualTrend(result);
     });
 }
