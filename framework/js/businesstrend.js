@@ -4,13 +4,13 @@ var elite = [];
 // parameter
 var bid;
 var year;
-var width = 800,
+var _width = 800,
     height = 300;
 var padding = {
-    top: 50,
+    top: 15,
     right: 50,
-    bottom: 50,
-    left: 15
+    bottom: 60,
+    left: 50
 };
 initial("DoKUOUwAsWrlRY6ehzQV_w", 2014);
 
@@ -18,23 +18,20 @@ function initial(bid, year) {
     this.bid = bid;
     this.year = year;
     console.log(this.bid);
+    console.log(this.year);
     readData();
 }
 
 function readData() {
     //import visit data for elite user
-    d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newVisit.json", function (error, result) {
-        data = result;
-        readElite();
-    });
+    data = newVisit;
+    readElite();
 }
 
 function readElite() {
-    d3.json("https://raw.githubusercontent.com/little2potato/yelp-business-trajectory/master/business-annual-trend/newElite.json", function (error, result) {
-        elite = result;
-        //                console.log(data.length)
-        render(data, elite);
-    });
+    elite = newElite;
+    //                console.log(data.length)
+    render(data, elite);
 
 }
 
@@ -47,13 +44,17 @@ function renderChart(data, filteredElite) {
     
     var main = svg.append('g')
         .classed('main', true)
-        .attr('transform', "translate(" + padding.top + ',' + padding.left + ')');
-
+        .attr('transform', "translate(" + padding.left + ',' + padding.top + ')');
+    
     var xScale = d3.scale.linear()
-        .domain([1, 12])
-        .range([0, width - padding.left - padding.right]);
+        .domain([0, 12])
+        .range([0, _width - padding.left - padding.right]);
     var yScale = d3.scale.linear()
-        .domain([0, 8])
+        .domain([d3.min(data, function(d) {
+            return d.vcount;
+        })-0.1, d3.max(data, function(d) {
+            return d.vcount;
+        })+0.1])
         .range([height - padding.top - padding.bottom, 0]);
     var xAxis = d3.svg.axis()
         .scale(xScale)
@@ -67,16 +68,15 @@ function renderChart(data, filteredElite) {
         .range(["#d62728", "#ab1f20", "#801718", "#550f10", "#2a0708"]);
 
     //             var color = d3.scaleOrdinal(d3.schemeCategory20b);
-
     main.append('g')
         .attr('class', 'axis')
         .attr('transform', 'translate(0,' + (height - padding.top - padding.bottom) + ')')
         .call(xAxis);
-
+    
     main.append('g')
         .attr('class', 'axis')
         .call(yAxis);
-
+    
     var line = d3.svg.line()
         .x(function (d) {
             return xScale(d.month)
@@ -85,21 +85,21 @@ function renderChart(data, filteredElite) {
             return yScale(d.vcount);
         })
         .interpolate('linear');
-
+    
     main.append('path')
         .attr('class', 'line')
         .attr('d', line(data))
         .attr("id", "myline");
-
+    
     main.selectAll('circle')
         .data(filteredElite)
         .enter()
         .append('circle')
         .attr('cx', function (d) {
-            return xScale(d.month + d.day / 30)
+            return xScale(d.month - 1 + d.day / 30.0)
         })
         .attr('cy', function (d) {
-            return findYatX(xScale(d.month + d.day / 30), document.getElementById("myline"))[1]
+            return findYatX(xScale(d.month - 1 + d.day / 30.0), document.getElementById("myline"))[1]
         })
         .attr("fill", function (d) {
             return colorScale(d.rstar)
@@ -130,7 +130,7 @@ function renderChart(data, filteredElite) {
         .attr('transform', function (d, i) {
             var height = legendRectSize + legendSpacing;
             var offset = height * colorScale.domain().length / 5;
-            var horz = 30 * legendRectSize;
+            var horz = 40 * legendRectSize;
             var vert = i * height - offset;
             return 'translate(' + horz + ',' + vert + ')';
         });
@@ -147,8 +147,6 @@ function renderChart(data, filteredElite) {
         .text(function (d) {
             return d;
         });
-
-
 }
 
 function render(data, elite) {
