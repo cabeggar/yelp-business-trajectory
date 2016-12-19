@@ -64,8 +64,8 @@ function renderChart(data, filteredElite) {
         .orient('left');
 
     var colorScale = d3.scale.linear()
-        .domain([5, 4, 3, 2, 1])
-        .range(["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]);
+        .domain([5,4,3,2,1])
+        .range(["#fcbba1", "#fc9272", "#fb6a4a", "#de2d26", "#a50f15"]);
 
     //             var color = d3.scaleOrdinal(d3.schemeCategory20b);
     main.append('g')
@@ -99,7 +99,8 @@ function renderChart(data, filteredElite) {
             return xScale(d.month - 1 + d.day / 30.0)
         })
         .attr('cy', function (d) {
-            return findYatX(xScale(d.month - 1 + d.day / 30.0), document.getElementById("myline"))[1]
+            return findYatXbyBisection(xScale(d.month - 1 + d.day / 31.1), document.getElementById("myline"), 0.1);
+//            return findYatX(xScale(d.month - 1 + d.day / 31.1), document.getElementById("myline"))[1]
         })
         .attr("fill", function (d) {
             return colorScale(d.rstar)
@@ -117,6 +118,33 @@ function renderChart(data, filteredElite) {
             curlen += 0.01;
         }
         return getXY(curlen);
+    }
+    
+    function findYatXbyBisection(x, path, error) {
+        var length_end = path.getTotalLength(),
+            length_start = 0,
+            point = path.getPointAtLength((length_end + length_start) / 2) // get the middle point
+            ,
+            bisection_iterations_max = 50,
+            bisection_iterations = 0
+
+            error = error || 0.01
+
+        while (x < point.x - error || x > point.x + error) {
+            // get the middle point
+            point = path.getPointAtLength((length_end + length_start) / 2)
+
+            if (x < point.x) {
+                length_end = (length_start + length_end) / 2
+            } else {
+                length_start = (length_start + length_end) / 2
+            }
+
+            // Increase iteration
+            if (bisection_iterations_max < ++bisection_iterations)
+                break;
+        }
+        return point.y
     }
 
     var legendRectSize = 15;

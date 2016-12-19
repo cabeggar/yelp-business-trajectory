@@ -250,7 +250,7 @@
         document.getElementById("rankChart").style.display = "none";
         document.getElementById("businessList").style.display = "block";
         document.getElementById("typeChart").style.display = "block";
-        drawTypeAnnualTrend(typeName, parseInt(startYear));
+        drawTypeAnnualTrend(typeName, parseInt(startYear)+1);
         
         var businessList = document.getElementById("businessList");
         while (businessList.firstChild) {
@@ -275,7 +275,7 @@
                 while (businessChart.firstChild) {
                     businessChart.removeChild(businessChart.firstChild);
                 }
-                initial(business.bid, parseInt(startYear));
+                initial(business.bid, parseInt(startYear)+1);
                 businessChart.style.display = "block";
                 entry.className = "list-group-item active";
             }
