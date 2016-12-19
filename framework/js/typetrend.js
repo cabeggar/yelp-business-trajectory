@@ -27,6 +27,9 @@ function renderTypeAnnualChart(data) {
             return d.weightedavg;
         })+0.1])
         .range([height - padding.top - padding.bottom, 0]);
+//    var yScale = d3.scale.linear()
+//        .domain([0.6, 2.2])
+//        .range([height - padding.top - padding.bottom, 0]);
     var xAxis = d3.svg.axis()
         .scale(xScale)
         .orient('bottom');

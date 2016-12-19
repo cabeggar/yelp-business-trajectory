@@ -38,7 +38,9 @@
         }
         
         #businessChart {
-            display: none;
+            width: 800px;
+            height: 300px;
+            display: block;
         }
         
         a.highlight {
@@ -106,6 +108,7 @@
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="js/typerank.js" type="text/javascript"></script>
 <script src="js/typetrend.js" type="text/javascript"></script>
+<script src="js/businesstrend.js" type="text/javascript"></script>
 <script>
     function highlightInTypeList(typeName, color) {
         var types = document.getElementById("typeList").children;
@@ -149,7 +152,11 @@
         var types = document.getElementById("typeList").children;
         for (var i = 0; i < types.length; i++) {
             var type = types[i];
-            type.className = "list-group-item";
+            if (type.textContent == "All") {
+                type.className += " active";
+            } else {
+                type.className = "list-group-item";
+            }
         }
         document.getElementById("rankChart").style.display = "block";
         document.getElementById("businessList").style.display = "none";
