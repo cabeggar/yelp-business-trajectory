@@ -65,7 +65,7 @@ function renderChart(data, filteredElite) {
 
     var colorScale = d3.scale.linear()
         .domain([5,4,3,2,1])
-        .range(["#fcbba1", "#fc9272", "#fb6a4a", "#de2d26", "#a50f15"]);
+        .range(["#d7191c","#fdae61","#ffffbf","#abd9e9","#2c7bb6"]);
 
     //             var color = d3.scaleOrdinal(d3.schemeCategory20b);
     main.append('g')
@@ -158,7 +158,7 @@ function renderChart(data, filteredElite) {
         .attr('transform', function (d, i) {
             var height = legendRectSize + legendSpacing;
             var offset = height * colorScale.domain().length / 5;
-            var horz = 40 * legendRectSize;
+            var horz = 45 * legendRectSize;
             var vert = i * height - offset;
             return 'translate(' + horz + ',' + vert + ')';
         });

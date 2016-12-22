@@ -83,16 +83,16 @@
     <div class="container">
         <div id="typeList" class="list-group">
             <a class="list-group-item active" onclick="showAll();">All</a>
-            <a class="list-group-item">American and British</a>
-            <a class="list-group-item">Chinese</a>
-            <a class="list-group-item">Comfort Food</a>
-            <a class="list-group-item">French</a>
-            <a class="list-group-item">Halal</a>
-            <a class="list-group-item">Indian</a>
-            <a class="list-group-item">Italian</a>
-            <a class="list-group-item">Japanese and Korean</a>
-            <a class="list-group-item">Southeast Asian</a>
-            <a class="list-group-item">Spanish</a>
+            <a class="list-group-item disabled">American and British</a>
+            <a class="list-group-item disabled">Chinese</a>
+            <a class="list-group-item disabled">Comfort Food</a>
+            <a class="list-group-item disabled">French</a>
+            <a class="list-group-item disabled">Halal</a>
+            <a class="list-group-item disabled">Indian</a>
+            <a class="list-group-item disabled">Italian</a>
+            <a class="list-group-item disabled">Japanese and Korean</a>
+            <a class="list-group-item disabled">Southeast Asian</a>
+            <a class="list-group-item disabled">Spanish</a>
         </div>
         <div id="businessList" class="list-group">
             <a class="list-group-item">Restaurant 1</a>
@@ -188,6 +188,14 @@
                     tmp = tmp.slice(0, 20);
                 }
                 typeDiff[type][i] = tmp;
+//                if (tmp.length <= 20) {
+//                    typeDiff[type][i] = tmp;
+//                } else {
+//                    var _tmp = tmp.slice(0, 10);
+//                    var n = tmp.length;
+//                    _tmp = _tmp.concat(tmp.slice(tmp.length-10, tmp.length).reverse());
+//                    typeDiff[type][i] = _tmp;
+//                }
             }
         }
     }
@@ -249,6 +257,8 @@
             var type = types[i];
             if (type.textContent == "All") {
                 type.className = "list-group-item";
+            } else {
+                type.className = "list-group-item disabled";
             }
             if (type.textContent == typeName) {
                 type.className += " active";
@@ -299,7 +309,7 @@
             if (type.textContent == "All") {
                 type.className += " active";
             } else {
-                type.className = "list-group-item";
+                type.className = "list-group-item disabled";
             }
         }
         document.getElementById("rankChart").style.display = "block";
